@@ -1,0 +1,7 @@
+﻿Music RGB ASUS compatibility update
+
+TUF FA506/FA507/FA608/FA706 and selected FX506/FX507/FX607 model families are routed through the ASUS ATKACPI RGB protocol after a read-only endpoint support probe. This protocol path has not been verified on every exact SKU. If no endpoint is reported as supported, the app refuses to send a lighting command. The TUF output is uniform color, not a per-key waveform.
+
+ROG Strix, ROG Zephyrus, and Vivobook candidate families are identified for diagnostics, but remain preview-only in Music RGB. Their official Armoury Crate/Aura Creator integration is not implemented here. See COMPATIBILITY.md for details.
+
+PyInstaller packaging completed successfully with Tcl/Tk configured. No test suite or physical hardware validation was run for this update. The app still does not capture and restore the full previous lighting profile on stop.
